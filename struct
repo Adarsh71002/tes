@@ -1,0 +1,39 @@
+frontend/
+├── node_modules/
+├── public/
+│   └── index.html
+├── src/
+│   ├── api/
+│   │   └── api.js                // Your API helper functions
+│   ├── components/               // All React component files
+│   │   ├── AddBook.jsx
+│   │   ├── CreateLibrary.jsx
+│   │   ├── CreateReader.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Home.jsx
+│   │   ├── IssueRequests.jsx
+│   │   ├── OnboardAdmin.jsx
+│   │   ├── RaiseRequest.jsx
+│   │   ├── RemoveBook.jsx
+│   │   ├── SearchBook.jsx
+│   │   ├── UpdateBook.jsx
+│   │   └── SignIn.jsx
+│   ├── __tests__/                // Test files for each component
+│   │   ├── AddBook.test.jsx
+│   │   ├── CreateLibrary.test.jsx
+│   │   ├── CreateReader.test.jsx
+│   │   ├── Dashboard.test.jsx
+│   │   ├── Home.test.jsx
+│   │   ├── IssueRequests.test.jsx
+│   │   ├── OnboardAdmin.test.jsx
+│   │   ├── RaiseRequest.test.jsx
+│   │   ├── RemoveBook.test.jsx
+│   │   ├── SearchBook.test.jsx
+│   │   ├── UpdateBook.test.jsx
+│   │   └── SignIn.test.jsx
+│   ├── setupTests.js             // Setup file for Vitest (imports @testing-library/jest-dom)
+│   ├── App.jsx
+│   └── index.jsx                 // Your application entry point
+├── vite.config.js                // Vite configuration (with test settings)
+├── package.json
+└── ...other files
