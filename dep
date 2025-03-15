@@ -1,0 +1,25 @@
+npm install --save-dev vitest
+npm install --save-dev @testing-library/react
+npm install --save-dev @testing-library/jest-dom
+npm install vite @vitejs/plugin-react
+
+
+
+
+  {
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "vitest": "^x.y.z",
+    "@testing-library/react": "^x.y.z",
+    "@testing-library/jest-dom": "^x.y.z",
+    "vite": "^x.y.z",
+    "@vitejs/plugin-react": "^x.y.z"
+  }
+}
