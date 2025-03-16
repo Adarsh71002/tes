@@ -2,6 +2,9 @@ npm install --save-dev vitest
 npm install --save-dev @testing-library/react
 npm install --save-dev @testing-library/jest-dom
 npm install vite @vitejs/plugin-react
+npm install --save-dev vitest @testing-library/react @testing-library/jest-dom
+npm install --save-dev jest-environment-jsdom  
+npm install --save-dev vitest @testing-library/react @testing-library/user-event jsdom
 
 
 
