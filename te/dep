@@ -1,0 +1,13 @@
+ 408  npm init -y\nnpm install --save-dev @playwright/test\nnpx playwright install\n
+  409  npx playwright test\n
+  410  npx playwright test\n
+  411  npx playwright test\n
+  412  npx playwright test\n
+  413  npx playwright test\n
+  414  npx playwright test\n
+  415  npx playwright test\n
+  416  npx playwright test\n
+  417  npx playwright codegen --viewport-size="320,568" xenonstack.com
+  418  npx playwright test\n
+  419  npx playwright test\n
+  420  npx playwright test\n
