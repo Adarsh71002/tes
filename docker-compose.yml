@@ -1,0 +1,13 @@
+services:
+  langflow:
+    build: .
+    container_name: langflow_app
+    ports:
+      - "7860:7860"
+    volumes:
+      # Optional: mount for config, workspace, logs
+      - ./langflow_data:/app/langflow
+    environment:
+      # override Python buffering
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
